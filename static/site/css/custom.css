@@ -1,0 +1,278 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+}
+
+ul.nav, .jumbotron h1 {
+	font-family: 'Arvo', courier, serif;
+}
+
+ul.nav {
+	font-size: 13px;
+}
+
+footer {
+	background-color: #424242;
+	padding-top: 150px;
+	padding-bottom: 30px;
+	position: relative;
+
+	color:white;
+}
+.clock {
+    padding: 0 23%;
+}
+
+.clock1 {
+    padding: 0 35%;
+}
+
+
+
+#get-involved {
+	background-color: #f5f5f5;
+}
+
+#back-to-top {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+
+#back-to-top a {
+	color: #333;
+}
+
+.jumbotron {
+	text-align: center;
+	background-image: url('../img/hero_image.jpg');
+	color: white;
+}
+
+.jumbotron h1 {
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+
+.jumbotron p {
+	margin-bottom: 30px;
+	font-weight: 100;
+	padding: 0 50px;
+}
+
+.btn-lg {
+	font-size: 36px;
+}
+
+.homepage {
+	text-align: center;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+.homepage h2, .homepage h3 {
+	color: #158cba;
+	font-family: 'Arvo', courier, serif;
+	text-transform: uppercase;
+}
+
+.homepage h2 {
+	font-size: 30px;
+}
+
+.homepage h3 {
+	font-size: 26px;
+}
+
+.homepage p {
+	font-size: 21px;
+	font-weight: 300;
+}
+
+.homepage a {
+	color: #158cba;
+}
+
+.homepage a:hover {
+	color: #158cba;
+	text-decoration: none;
+	opacity: .8;
+}
+
+.homepage hr {
+	border-top: 1px solid #158cba;
+	width: 160px;
+	margin-top: 15px;
+}
+.btn-danger {
+    color: #FFF;
+    background-color: #158cba;
+    border-color: #158cba;
+}
+
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open .dropdown-toggle.btn-danger {
+    color: #FFF;
+    background-color: rgb(45, 187, 210);
+    border-color: #636363;
+}
+/* Responsive Styling */
+
+@media (max-width: 1199px) { 
+
+	.jumbotron h1 {
+		font-size: 56px;
+		margin-bottom: 30px;
+	}
+
+}
+
+@media (max-width: 991px) { 
+
+	.jumbotron h1 {
+		font-size: 44px;
+	}
+
+	.jumbotron p {
+		padding: 0 10px;
+	}
+
+	#get-involved .col-md-4 {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+}
+
+@media (max-width: 767px) { 
+
+	.jumbotron h1 {
+		font-size: 24px;
+	}
+
+	.jumbotron p {
+		font-size: 16px;
+		padding: 0;
+	}
+
+	.btn-lg {
+		font-size: 18px;
+	}
+
+	.homepage p {
+		font-size: 18px;
+	}
+
+	footer img {
+		width: 80%;
+	}
+
+}
+.blogtainer{
+
+	background-color: #f5f5f5;
+
+}
+
+
+.blogtainer h2,.blogtainer h1{
+
+	color: #158cba;
+	font-family: 'Arvo', courier, serif;
+	text-transform: uppercase;
+
+
+}
+
+
+/*Gray #424242*/
+/*Blue #158cba*/
+
+
+/* Home page styling */
+.corporate-jumbo {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0)),
+      url('../img/hero_image.jpg');
+    background-repeat: no-repeat;
+    background-position: 80% center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #f5f5f5;
+    padding: 10em 0;
+    margin-bottom: 0;
+    height: 100%;
+}
+
+.corporate-jumbo .well {
+    background-color: rgba(245, 245, 245, .7);
+}
+
+.corporate-jumbo p, .corporate-jumbo h1 {
+    color: #eee;
+    text-shadow: 0px 0px 2px black;
+}
+
+.corporate-jumbo p {
+    font-weight: 500;
+}
+
+.corporate-jumbo .well legend {
+    color: #333;
+}
+
+.corporate-jumbo > .container {
+    display: block;
+
+   position:relative;
+}
+
+/*unsorted csss*/
+
+
+.contact-banner {
+    padding: 100px 0;
+    background: #e0e0e0;
+    margin-top: 100px;
+}
+
+.footer a:hover {
+    text-decoration: none;
+}
+
+/* About page styling */
+#sec1 {
+    background:url(data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAJklEQVQIW2NkAIILFy78NzAwYATRjCABZEGwAEwFiA1WBlIOUwkA72gTdDIYVO4AAAAASUVORK5CYII=) repeat;
+}
+
+/* Profile page styling */
+.profile-head {
+    background:url(data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAJklEQVQIW2NkAIILFy78NzAwYATRjCABZEGwAEwFiA1WBlIOUwkA72gTdDIYVO4AAAAASUVORK5CYII=) repeat;
+    padding: 70px 0px 30px 20px;
+}
+.profile-body {
+    padding: 4px 0px;
+}
+
+.text-page {
+    padding: 120px 0;
+}
+
+#map-outer {
+    height: 440px;
+    padding: 40px 20px;
+    margin-bottom: 20px;
+    background-color:#FFF
+}
+
+#map-container {
+    height: 400px
+}
+
+
+ .jumbotron{
+
+top:2em;
+}
+
+
+

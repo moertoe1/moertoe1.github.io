@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script src="countdown.js" type="text/javascript"></script>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+    <title>Conference Blog</title>
+
+    <!-- This is our Google Arvo font and Font-Awesome -->
+    <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="static/site/fonts/font-awesome/css/font-awesome.min.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="static/site/css/custom.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+  </head>
+	<body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+
+    
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a  id = "home" class="navbar-brand" href="index.html"><img src="static/site/img/logo.png" alt="SIISM" title="SIISM"> SIISM HOME</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+ 
+            <li><a href="#about">ABOUT US</a></li>
+            <li><a href="#">LOGOUT</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container blogtainer" id ="lift">
+
+    		<div>
+    		    <h1><a href="/">Conference Blog</a></h1>
+    		</div>
+
+    		{% for post in posts %}
+
+
+    		    <div>
+    		        <p>published: {{ post.published_date }}</p>
+    		        <h2><a href="">{{ post.title }}</a></h2>
+    		        <p>{{ post.content |linebreaks }}</p>
+    		    </div>
+
+
+    		{% endfor %}
+
+      </div>
+
+	    <footer>
+      
+        <p></p>
+
+         <a name="contact"></a>
+     
+          <div class="footer">
+                <div class="row">
+                  <div class="col-lg-6">
+                      <p>&copy; SIISM </p>
+                  </div>
+                  <div class="col-lg-6 text-right" >
+                      Connect with us on
+                      <a href="www.facebook.com/SIISM2015"><i class="fa fa-facebook"></i> Facebook</a> or
+                      <a href="#"><i class="fa fa-twitter"></i> Twitter</a>
+                  </div>
+                </div>
+
+         </div>  
+      </div>
+      <div id="back-to-top">
+        <a href="#lift"><i class="fa fa-chevron-circle-up fa-3x"></i></a>
+      </div>
+
+
+
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="static/site/js/bootstrap.min.js"></script>
+    <script src="static/site/js/smoothscroll.js"></script>
+	</body>
+</html>
+
