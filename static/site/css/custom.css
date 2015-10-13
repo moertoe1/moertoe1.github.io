@@ -19,6 +19,9 @@ footer {
 
 	color:white;
 }
+
+/* The clock of the HTML that counts down to a spesific date */
+
 .clock {
     padding: 0 23%;
 }
@@ -26,7 +29,6 @@ footer {
 .clock1 {
     padding: 0 35%;
 }
-
 
 
 #get-involved {
@@ -43,6 +45,8 @@ footer {
 	color: #333;
 }
 
+
+/* main background page imge and edditing*/
 .jumbotron {
 	text-align: center;
 	background-image: url('../img/hero_image.jpg');
@@ -115,80 +119,10 @@ footer {
     background-color: rgb(45, 187, 210);
     border-color: #636363;
 }
-/* Responsive Styling */
-
-@media (max-width: 1199px) { 
-
-	.jumbotron h1 {
-		font-size: 56px;
-		margin-bottom: 30px;
-	}
-
-}
-
-@media (max-width: 991px) { 
-
-	.jumbotron h1 {
-		font-size: 44px;
-	}
-
-	.jumbotron p {
-		padding: 0 10px;
-	}
-
-	#get-involved .col-md-4 {
-		padding-top: 20px;
-		padding-bottom: 20px;
-	}
-
-}
-
-@media (max-width: 767px) { 
-
-	.jumbotron h1 {
-		font-size: 24px;
-	}
-
-	.jumbotron p {
-		font-size: 16px;
-		padding: 0;
-	}
-
-	.btn-lg {
-		font-size: 18px;
-	}
-
-	.homepage p {
-		font-size: 18px;
-	}
-
-	footer img {
-		width: 80%;
-	}
-
-}
-.blogtainer{
-
-	background-color: #f5f5f5;
-
-}
 
 
-.blogtainer h2,.blogtainer h1{
 
-	color: #158cba;
-	font-family: 'Arvo', courier, serif;
-	text-transform: uppercase;
-
-
-}
-
-
-/*Gray #424242*/
-/*Blue #158cba*/
-
-
-/* Home page styling */
+/* Home page styling   in oder to get the slider working*/
 .corporate-jumbo {
     background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0)),
       url('../img/hero_image.jpg');
@@ -226,7 +160,7 @@ footer {
    position:relative;
 }
 
-/*unsorted csss*/
+
 
 
 .contact-banner {
@@ -276,3 +210,134 @@ top:2em;
 
 
 
+/* Responsive Styling  for all devise sizes */
+
+@media (max-width: 1199px) { 
+
+	.jumbotron h1 {
+		font-size: 56px;
+		margin-bottom: 30px;
+	}
+
+}
+
+@media (max-width: 991px) { 
+
+
+
+	.clock {
+	    padding: 0 18%;
+	}
+
+	.clock1 {
+	    padding: 0 29%;
+	}
+
+	.jumbotron h1 {
+		font-size: 44px;
+	}
+
+	.jumbotron p {
+		padding: 0 10px;
+	}
+
+	#get-involved .col-md-4 {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+}
+
+@media (max-width: 767px) { 
+
+
+	.clock {
+    padding: 0 10%;
+}
+
+	.clock1 {
+    padding: 0 15%;
+}
+
+
+
+	.jumbotron h1 {
+		font-size: 24px;
+	}
+
+	.jumbotron p {
+		font-size: 16px;
+		padding: 0;
+	}
+
+	.btn-lg {
+		font-size: 18px;
+	}
+
+	.homepage p {
+		font-size: 18px;
+	}
+
+	footer img {
+		width: 80%;
+	}
+
+}
+
+
+@media (max-width: 400px) { 
+
+
+	.clock {
+    padding: 0 0;
+}
+
+	.clock1 {
+    padding: 0 0;
+}
+
+
+
+	.jumbotron h1 {
+		font-size: 24px;
+	}
+
+	.jumbotron p {
+		font-size: 16px;
+		padding: 0;
+	}
+
+	.btn-lg {
+		font-size: 18px;
+	}
+
+	.homepage p {
+		font-size: 18px;
+	}
+
+	footer img {
+		width: 80%;
+	}
+
+}
+
+
+.blogtainer{
+
+	background-color: #f5f5f5;
+
+}
+
+
+.blogtainer h2,.blogtainer h1{
+
+	color: #158cba;
+	font-family: 'Arvo', courier, serif;
+	text-transform: uppercase;
+
+
+}
+
+/* Color codes i need to remember*/
+/*Gray #424242*/
+/*Blue #158cba*/
